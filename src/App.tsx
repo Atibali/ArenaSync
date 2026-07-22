@@ -10,6 +10,7 @@ import OperatorPanel from './components/OperatorPanel';
 import FanConcierge from './components/FanConcierge';
 import VolunteerTasks from './components/VolunteerTasks';
 import SustainabilityTracker from './components/SustainabilityTracker';
+import RealDataIntegrationsHub from './components/RealDataIntegrationsHub';
 
 import {
   ShieldAlert,
@@ -294,6 +295,9 @@ export default function App() {
 
             {/* Sustainability offsets and grid trackers */}
             <SustainabilityTracker metrics={stadiumState.sustainability} />
+
+            {/* PHASE 3: Live Real Data & Enterprise Integration Matrix */}
+            <RealDataIntegrationsHub />
 
           </div>
         )}
